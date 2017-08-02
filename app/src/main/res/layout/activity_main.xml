@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+   android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/main_layout_bakground"
+    tools:context="artist.web.mytourguide.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Travelogue"
+        android:fontFamily="sans-serif"
+        android:textColor="#C62828"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_marginTop="20dp"
+        android:textSize="28sp"/>
+
+    <ImageView
+        android:id="@+id/image_prague"
+        android:layout_width="280dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/prague"/>
+
+    <ImageView
+        android:id="@+id/image_india"
+        android:layout_width="280dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/india"/>
+
+    <ImageView
+        android:id="@+id/image_switzerland"
+        android:layout_width="280dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/switzerland"/>
+
+</LinearLayout>
+</ScrollView>
