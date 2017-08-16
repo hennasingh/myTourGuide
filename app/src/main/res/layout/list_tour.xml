@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/tour_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        tools:background="@drawable/placeholder_image"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+
+        <TextView
+            android:id="@+id/tour_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#880E4F"
+            android:textSize="14sp"
+            android:layout_marginBottom="10dp"
+            tools:text="Dublin to Galway"/>
+
+        <TextView
+            android:id="@+id/tour_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#F50057"
+            android:textSize="14sp"
+            android:layout_marginBottom="10dp"
+            tools:text="10 hours"/>
+
+        <TextView
+            android:id="@+id/tour_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            tools:text="Euro 50 oer person"/>
+
+    </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/tour_stars"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            tools:src="@drawable/rating_five"
+            android:layout_gravity="top"/>
+
+
+ </LinearLayout>
