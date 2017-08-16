@@ -57,30 +57,30 @@ public class TourAdapter extends ArrayAdapter<Tours> {
 
         switch(String.valueOf(stars)){
             case "0.5":
-                resource =R.drawable.rating_five;
+                resource =R.drawable.rating_half;
                 break;
             case "1.0":
-                resource = R.drawable.rating_five;
+                resource = R.drawable.rating_one;
                 break;
             case "1.5":
-                resource = R.drawable.rating_five;
+                resource = R.drawable.rating_onehalf;
                 break;
             case "2":
-                resource = R.drawable.rating_five;
+                resource = R.drawable.rating_two;
             case "2.5":
-                resource = R.drawable.rating_five;
+                resource = R.drawable.rating_twohalf;
                 break;
             case "3":
-                resource=R.drawable.rating_five;
+                resource=R.drawable.rating_three;
                 break;
             case "3.5":
-                resource = R.drawable.rating_five;
+                resource = R.drawable.rating_threehalf;
                 break;
             case "4":
-                resource = R.drawable.rating_five;
+                resource = R.drawable.rating_four;
                 break;
             case "4.5":
-                resource = R.drawable.rating_five;
+                resource = R.drawable.rating_fourhalf;
                 break;
             case "5":
                 resource = R.drawable.rating_five;
