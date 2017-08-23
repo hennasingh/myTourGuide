@@ -12,20 +12,6 @@ public class CityItinery extends AppCompatActivity {
 
         Bundle extras = getIntent().getExtras();
 
-        if(extras!=null){
-            int image_id = extras.getInt("country");
-
-            switch(image_id){
-                case R.id.image_india:
-                    break;
-                case R.id.image_prague:
-                    break;
-                case R.id.image_switzerland:
-                    break;
-
-            }
-
-
-                    }
+           }
     }
-}
+

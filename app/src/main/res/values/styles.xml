@@ -35,4 +35,31 @@
         <item name="android:textColor">#A8A19E</item>
     </style>
 
+    <style name="CircleImageStyle">
+        <item name ="android:layout_width">@dimen/width_100</item>
+        <item name="android:layout_height">@dimen/height_100</item>
+        <item name="android:layout_marginBottom">@dimen/margin_10</item>
+        <item name="android:layout_marginTop">@dimen/margin_10</item>
+    </style>
+
+    <style name="ScrollTextStyle">
+        <item name ="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginStart">@dimen/margin_5</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/text_16</item>
+    </style>
+
+    <style name="TextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/margin_12dp</item>
+        <item name="android:layout_marginTop">@dimen/margin_10</item>
+        <item name="android:layout_marginBottom">@dimen/margin_10</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/popular_cities</item>
+        <item name="android:textSize">@dimen/text_24</item>
+    </style>
+
 </resources>

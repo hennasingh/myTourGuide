@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_layout_bakground"
+    tools:context="artist.web.mytourguide.TourDetailsActivity">
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/tour_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:src="@drawable/dubtogal" />
+
+        <LinearLayout
+            android:id="@+id/ll_tour_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/tour_icon">
+
+            <TextView
+                android:id="@+id/tour_name"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_20sp"
+                tools:text="Dublin to Galway"
+                android:textColor="@color/tour_name"
+                android:padding="@dimen/margin_8dp"/>
+
+            <RatingBar
+                android:id="@+id/rating_stars"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:numStars="5"
+                tools:rating="3"
+                android:stepSize="1"/>
+
+            <Button
+                android:id="@+id/book_now"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_8dp"
+                android:background="@color/ll_backgroundscroll"
+                android:text="@string/book_now"
+                android:textColor="@color/tour_name"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tour_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_tour_header"
+            tools:text="@string/placeholder_cost"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/margin_50dp"
+            android:layout_marginTop="@dimen/margin_10"
+            android:drawableLeft="@drawable/ic_euro_symbol"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_20sp"/>
+
+           <TextView
+            android:id="@+id/tv_overview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_tour_header"
+            android:layout_marginLeft="@dimen/margin_8dp"
+            android:padding="@dimen/margin_8dp"
+            android:text="@string/overview"
+            android:textColor="@color/popular_cities"
+            android:textSize="@dimen/text_20sp" />
+
+
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_overview"
+            android:layout_marginLeft="@dimen/margin_8dp"
+            android:padding="@dimen/margin_8dp"
+            android:textSize="@dimen/text_16"
+            tools:text="The description of the tour will be done here." />
+
+    </RelativeLayout>
+</ScrollView>

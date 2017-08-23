@@ -6,39 +6,44 @@ package artist.web.mytourguide;
 
 public class Tours {
 
-    private int tour_icon;
-    private String tour_name;
-    private String tour_time;
-    private int tour_cost;
-    private double tour_rating;
+    private int tourIcon;
+    private String tourName;
+    private String tourTime;
+    private int tourCost;
+    private float tourRating;
+    private String tourDesc;
 
-    public Tours(String tour_name,int tour_icon, String tour_time,
-                 int tour_cost, double tour_rating) {
-        this.tour_icon = tour_icon;
-        this.tour_name = tour_name;
-        this.tour_time = tour_time;
-        this.tour_cost = tour_cost;
-        this.tour_rating = tour_rating;
+    public Tours(String tourName,int tourIcon, String tourTime,
+                 int tourCost, float tourRating, String tourDesc) {
+        this.tourIcon = tourIcon;
+        this.tourName = tourName;
+        this.tourTime = tourTime;
+        this.tourCost = tourCost;
+        this.tourRating = tourRating;
+        this.tourDesc = tourDesc;
     }
 
-    public int getTour_icon() {
-        return tour_icon;
+    public int getTourIcon() {
+        return tourIcon;
     }
 
-    public String getTour_name() {
-        return tour_name;
+    public String getTourName() {
+        return tourName;
     }
 
-    public String getTour_time() {
-        return tour_time;
+    public String getTourTime() {
+        return tourTime;
     }
 
-    public int getTour_cost() {
-        return tour_cost;
+    public int getTourCost() {
+        return tourCost;
     }
 
-    public double getTour_rating() {
-        return tour_rating;
+    public float getTourRating() {
+        return tourRating;
     }
 
- }
+    public String getTourDesc() {
+        return tourDesc;
+    }
+}

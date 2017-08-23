@@ -3,4 +3,9 @@
     <color name="colorPrimary">#EF5350</color>
     <color name="colorPrimaryDark">#D32F2F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="popular_cities">#C62828</color>
+    <color name="ll_backgroundscroll">#FF8A80</color>
+    <color name="circle_border">#C62828</color>
+    <color name="tour_name">#880E4F</color>
+    <color name="tour_time">#F50057</color>
 </resources>
