@@ -10,13 +10,13 @@
     <string name="placeholder_tourTime">10 hours</string>
 
     <string name="dubtogal">Travel with us on one of our wonderful day trips from Dublin to the Cliffs of Moher in
-        County Clare. Located on Ireland’s wild rugged Atlantic coast, the cliffs were recently voted as the seventh
+        County Clare. Located on Ireland\’s wild rugged Atlantic coast, the cliffs were recently voted as the seventh
         most wonderful heritage site in the world in a global poll conducted by UNESCO. Enjoy the breath-taking scenery
-        of Ireland’s rugged West Coast as we travel along the spectacular Wild Atlantic Way to one of Ireland’s national
+        of Ireland\’s rugged West Coast as we travel along the spectacular Wild Atlantic Way to one of Ireland\’s national
         treasures and a UNESCO Global Geopark, the Burren. Visit the medieval city of Galway and enjoy a 30-minute guided
-        tour of this historic and vibrant city, widely known as Ireland’s “most Irish” city, before returning
+        tour of this historic and vibrant city, widely known as Ireland\’s most Irish city, before returning
         to Dublin with wonderful memories.</string>
-    <string name="dubtobel">Giant’s Causeway and Belfast city day tour passing through the Boyne Valley, home to the
+    <string name="dubtobel">Giant\’s Causeway and Belfast city day tour passing through the Boyne Valley, home to the
         five thousand year old Hill of Tara, the ancient capital of the High Kings of Ireland. Learn about the Battle
         of Boyne between King James (Catholic) and King William of Orange (Protestant – Dutch), a chapter in history
         which was hugely significant in the political, cultural and religious destinies of both Ireland and Britain.
@@ -24,35 +24,28 @@
         On your Belfast tour you will immediately observe how different it will look compared to Dublin.
         Belfast was the only city in Ireland which experienced the Industrial Revolution of Britain during the 19th
         century</string>
-    <string name="parischarms">From the majestic Louvre to the regal Palais-Royal,
-                this neighbourhood oozes luxury. The grand arches
-                along Rue de Rivoli are shadowed by mosaics in front
-                of decorated vitrines and hotels. Place Vendôme is
-                lined with the world’s best jewelers and their
-                glittering window displays. Every other establishment
-                has someone to open the door for you or park your car.
-                You can spend hours gazing at its haute couture shops
-                or lingering over a meal at any of its chic eateries.
-                After all that indulgence, the Tuileries gardens
-                provide stately respite, while theatres compete for
-                your applause. It's a neighbourhood that draws
-                admirers from around the world, all attracted to the luxe life in Paris.</string>
-    <string name="parisfood">Embark on a culinary tour of Paris\'s Montmartre neighborhood,
-        one of the city\'s most charming neighborhoods. Sample delicacies like croissants and éclairs at a
-        local patisserie, enjoy a guided tasting of various cheeses at a fromagerie and satisfy your sweet tooth
-        at a classic chocolaterie. Of course no gourmet tour of Paris would be complete without a stop at a
-        boulangerie, where you\'ll learn the proper way to eat a baguette in France.
-        Montmartre is the perfect district for Paris food tours because of the area's flourishing restaurant scene,
-        historical culture and charming ambiance. In the past, windmills, farming areas and art studios were prominent
-        features of the Montmartre landscape. Now the area boasts an abundance of first-class wine bars, fine dining
-        restaurants and rare shops, all adding to its appeal as one of the best and most unique food destinations in the
-        world</string>
+    <string name="parischarms">From the majestic Louvre to the regal Palais Royal,this neighbourhood oozes luxury.
+        The grand arches along Rue de Rivoli are shadowed by mosaics in front of decorated vitrines and hotels.
+        Place Vendôme is lined with the world\’s best jewelers and their glittering window displays.
+        Every other establishment has someone to open the door for you or park your car.You can spend hours gazing
+        at its haute couture shops or lingering over a meal at any of its chic eateries.After all that indulgence,
+        the Tuileries gardens provide stately respite, while theatres compete for your applause.
+        It is a neighbourhood that draws admirers from around the world, all attracted to the luxe life in Paris.</string>
+    <string name="parisfood">Embark on a culinary tour of Paris Montmartre neighborhood,one of the citys most charming
+        neighborhoods. Sample delicacies like croissants and éclairs at a local patisserie, enjoy a guided tasting of
+        various cheeses at a fromagerie and satisfy your sweet tooth at a classic chocolaterie. Of course no gourmet
+        tour of Paris would be complete without a stop at a boulangerie, where you will learn the proper way to eat a
+        baguette in France.Montmartre is the perfect district for Paris food tours because of the area\'s flourishing
+        restaurant scene, historical culture and charming ambiance. In the past, windmills, farming areas and art
+        studios were prominent features of the Montmartre landscape. Now the area boasts an abundance of first-class
+        wine bars, fine dining restaurants and rare shops, all adding to its appeal as one of the best and most unique
+        food destinations in the world</string>
     <string name="zurichcruise">Discover the picturesque beauty of Lucerne on a full-day trip from Zurich.
         Cruise the shimmering surface of Lake Lucerne during a tranquil boat ride; absorb gorgeous panoramas of the
-        Albis Pass mountain range; and explore the historically rich city independently during some leisurely free time. Delve into Lucerne’s
-        fascinating past on a guided sightseeing tour and listen to illuminating commentary from an expert guide.
-        Enjoy the convenience of round-trip transportation from Zurich on this magical excursion.</string>
-    <string name="pragueriver">Tap into Prague’s famous party spirit on this 4-hour evening riverside hangout
+        Albis Pass mountain range and explore the historically rich city independently during some leisurely free time.
+        Delve into Lucerne\’s fascinating past on a guided sightseeing tour and listen to illuminating commentary
+        from an expert guide.Enjoy the convenience of round-trip transportation from Zurich on this magical excursion.</string>
+    <string name="pragueriver">Tap into Prague\'s famous party spirit on this 4-hour evening riverside hangout
         and guided walking tour. Meet up near the Charles Bridge, and enjoy unlimited beer and sangria as you take
         relaxed guided walks around different monuments and the cobbled Mala Strana district. Midway through,
         savor dinner under the bridge, and finish by creating your own street art on the John Lennon Wall.</string>

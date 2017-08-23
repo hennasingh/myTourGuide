@@ -16,7 +16,7 @@ public class TourDetailsActivity extends AppCompatActivity {
     @BindView(R.id.tour_icon) ImageView tourIcon;
     @BindView(R.id.tour_cost) TextView tourCost;
     @BindView(R.id.tv_desc) TextView tourDesc;
-    @BindView(R.id.rating_Stars) RatingBar tourStars;
+    @BindView(R.id.rating_stars) RatingBar tourStars;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

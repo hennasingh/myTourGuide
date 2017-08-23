@@ -33,12 +33,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ButterKnife.bind(this);
         tourList = new ArrayList<Tours>();
 
-        tourList.add(new Tours("Dublin to Galway",R.drawable.galway,"10 hours", 50,3.5, R.string.dubtogal));
-        tourList.add(new Tours("Dublin to Belfast",R.drawable.belfast,"11 hours", 70,4, R.string.dubtobel));
-        tourList.add(new Tours("Paris Charms & Secrets",R.drawable.parischarms,"5 hours", 30,3.5, R.string.parischarms));
-        tourList.add(new Tours("Paris: Taste of Montmarte",R.drawable.parismontmartre,"3 hours", 90,5, R.string.parisfood));
-        tourList.add(new Tours("Zurich Cruise Trip",R.drawable.zurich_cruise,"10 hours", 75,4, R.string.zurichcruise));
-        tourList.add(new Tours("Prague Riverside Party",R.drawable.prague_riverside,"4 hours", 25,5, R.string.pragueriver));
+        image_kerala.setOnClickListener(this);
+        image_goa.setOnClickListener(this);
+        image_paris.setOnClickListener(this);
+        image_zurich.setOnClickListener(this);
+        image_dublin.setOnClickListener(this);
+        image_prague.setOnClickListener(this);
+
+        tourList.add(new Tours("Dublin to Galway",R.drawable.galway,"10 hours", 50,3.5f,getString(R.string.dubtogal)));
+        tourList.add(new Tours("Dublin to Belfast",R.drawable.belfast,"11 hours", 70,4, getString(R.string.dubtobel)));
+        tourList.add(new Tours("Paris Charms & Secrets",R.drawable.parischarms,"5 hours", 30,3.5f, getString(R.string.parischarms)));
+        tourList.add(new Tours("Paris: Taste of Montmarte",R.drawable.parismontmartre,"3 hours", 90,5,getString(R.string.parisfood)));
+        tourList.add(new Tours("Zurich Cruise Trip",R.drawable.zurich_cruise,"10 hours", 75,4, getString(R.string.zurichcruise)));
+        tourList.add(new Tours("Prague Riverside Party",R.drawable.prague_riverside,"4 hours", 25,5,getString(R.string.pragueriver)));
 
         TourAdapter tourAdapter = new TourAdapter(this,tourList);
         ListView toursListView = (ListView)findViewById(R.id.listview_tours);

@@ -13,7 +13,7 @@ public class CountryItinery extends AppCompatActivity {
         Bundle extras = getIntent().getExtras();
 
         if(extras!=null){
-            long image_id = extras.getLong()
+
         }
     }
 }

@@ -17,7 +17,7 @@
             android:id="@+id/tour_icon"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:src="@drawable/dubtogal" />
+            tools:src="@drawable/galway" />
 
         <LinearLayout
             android:id="@+id/ll_tour_header"
