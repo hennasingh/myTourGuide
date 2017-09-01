@@ -8,4 +8,10 @@
     <color name="circle_border">#C62828</color>
     <color name="tour_name">#880E4F</color>
     <color name="tour_time">#F50057</color>
+    <color name="color_pink">#EF9A9A</color>
+    <color name="color_red">#D32F2F</color>
+    <color name="light_pink">#FFEBEE</color>
+    <color name="dark_red">#B71C1C</color>
+    <color name="violet">#9575CD</color>
+    <color name="light_violet">#E1BEE7</color>
 </resources>

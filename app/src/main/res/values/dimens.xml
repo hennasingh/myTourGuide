@@ -6,6 +6,8 @@
     <dimen name="margin_10">10dp</dimen>
     <dimen name="width_100">100dp</dimen>
     <dimen name="height_100">100dp</dimen>
+    <dimen name="width_75">75dp</dimen>
+    <dimen name="height_75">75dp</dimen>
     <dimen name="margin_5">5dp</dimen>
     <dimen name="text_16">16sp</dimen>
     <dimen name="margin_20">20dp</dimen>
@@ -19,4 +21,7 @@
     <dimen name="text_20sp">20sp</dimen>
     <dimen name="margin_50dp">50dp</dimen>
     <dimen name="margin_8dp">8dp</dimen>
+    <dimen name="height_130">130dp</dimen>
+    <dimen name="padding_5dp">5dp</dimen>
+    <dimen name="height_250dp">250dp</dimen>
 </resources>

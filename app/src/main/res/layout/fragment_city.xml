@@ -1,0 +1,139 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_pink"
+    tools:context="artist.web.mytourguide.CityFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/label_country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Country"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/dark_red"/>
+                <TextView
+                    android:id="@+id/country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="India"
+                    android:textSize="14sp"
+                    android:textColor="@color/violet"/>
+
+                <TextView
+                    android:id="@+id/label_language"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Official Language"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/dark_red"/>
+                <TextView
+                    android:id="@+id/language"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Malayalam"
+                    android:textSize="14sp"
+                    android:textColor="@color/violet"/>
+
+                <TextView
+                    android:id="@+id/label_attractions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Major Attractions"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/dark_red"/>
+
+                <TextView
+                    android:id="@+id/attractions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Black Waters, beaches, Ayurvedic Tourism "
+                    android:textSize="14sp"
+                    android:textColor="@color/violet"/>
+
+                <TextView
+                    android:id="@+id/label_speciality"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Known for"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/dark_red"/>
+
+                <TextView
+                    android:id="@+id/specials"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Cocunut, coffee, Handlooms, spices"
+                    android:textSize="14sp"
+                    android:textColor="@color/violet"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/place_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="220dp"
+                    tools:src="@drawable/kerala1"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/label_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:padding="6dp"
+            android:background="@color/color_pink"
+            android:textColor="@color/dark_red"
+            android:text="About the City"/>
+
+        <TextView
+            android:id="@+id/about_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:padding="6dp"
+            android:textColor="@color/dark_red"
+            tools:text="This will contain content about the city"
+            android:background="@color/light_violet"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

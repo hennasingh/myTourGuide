@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyTourGuide</string>
+    <string name="app_name">Travelogue</string>
     <string name="popular_cities">Popular Cities</string>
     <string name="kerala">Kerala</string>
     <string name="zurich">Zurich</string>
@@ -52,4 +52,97 @@
     <string name="placeholder_cost">50</string>
     <string name="book_now">Book Now</string>
     <string name="overview">Overview</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- About Kerala -->
+    <string name="kerala_country">India</string>
+    <string name="kerala_description">Kerala is state in South India on the Malabar Coast. Spread over 38,863 km2
+        (15,005 sq mi), it is bordered by Karnataka to the north and northeast, Tamil Nadu to the east and south,
+        and the Lakshadweep Sea to the west. With 33,387,677 inhabitants as per the 2011 Census,
+        Kerala is the thirteenth-largest Indian state by population. It is divided into 14 districts with the
+        capital and the largest city being Thiruvananthapuram.Malayalam is the most widely spoken language and
+        is also the official language of the state. The state has the highest media exposure in India with newspapers
+        publishing in nine languages, mainly English and Malayalam. Kerala is one of the prominent tourist destinations
+        of India, with backwaters, beaches, Ayurvedic tourism and tropical greenery as its major attractions.</string>
+    <string name="kerala_attractions">Black Water, beaches, Ayurvedic Tourism</string>
+    <string name="kerala_specialities">Coconut, Coffee, Handlooms, Spices</string>
+    <string name="kerala_language">Malayalam</string>
+
+    <!--About Goa -->
+    <string name="goa_country">India</string>
+    <string name="goa_description">Goa is a state within coastal region known as Konkan in India.It is bounded by
+        Maharashtra to the north and Karnataka to the east and south, with the Arabian Sea forming its Western coast.
+        It is India\'s smallest state by area and the fourth smallest by population. Goa has the highest GDP per capita
+        among all Indian states, that is two and a half times that of the country. It was ranked the best placed state
+        by the \"Eleventh Finance Commission\" for its infrastructure and ranked on top for the best quality of life in
+        India by the National Commission on Population based on the 12 Indicators. Panaji is the state\'s capital,
+        while Vasco da Gama is its largest city. Goa is visited by large numbers of international and domestic tourists
+        each year for its beaches, places of worship and world heritage architecture.
+        It has rich flora and fauna, owing to its location on the Western Ghats range, a biodiversity hotspot.</string>
+    <string name="goa_attractions">Beaches, Temples, Forts, World Heritage and Architecture</string>
+    <string name="goa_specialities">Sea Food, Junk Jewellery, Sea Shells</string>
+    <string name="goa_language">Konkani</string>
+
+    <!--About Dublin -->
+    <string name="dublin_country">Ireland</string>
+    <string name="dublin_description">Dublin is the capital and largest city of Ireland. Dublin is in the province of
+        Leinster on Ireland\'s east coast, at the mouth of the River Liffey. The city has an urban area population of
+        1,173,179.The population of the Greater Dublin Area, as of 2016, was 1,904,806 people. As of 2010, Dublin was
+        listed by the Globalization and World Cities Research Network (GaWC) as a global city, with a ranking of \"Alpha-\",
+        which places it amongst the top thirty cities in the world.It is a historical and contemporary centre for education,
+        the arts, administration, economy and industry.</string>
+    <string name="dublin_attractions">Samuel Beckett Bridge, Street Arts, Trinity College, Contemporary Art and Architectures</string>
+    <string name="dublin_specialities">Irish Coffee, Listons, Stew, Beers and Music</string>
+    <string name="dublin_language">Gaelic</string>
+
+    <!--About Prague -->
+    <string name="prague_country">Czech Republic</string>
+    <string name="prague_description">Prague is the capital and largest city of the Czech Republic. It is the 14th
+        largest city in the European Union.It is also the historical capital of Bohemia. Situated in the north-west
+        of the country on the Vltava river, the city is home to about 1.4 million people, while its larger urban zone
+        is estimated to have a population of 2.2 million.The city has a temperate climate, with warm summers and chilly
+        winters. Prague is home to a number of famous cultural attractions, many of which survived the violence and destruction
+        of 20th-century Europe. Main attractions include the Prague Castle, the Charles Bridge, Old Town Square with the
+        Prague astronomical clock, the Jewish Quarter, Petřín hill and Vyšehrad. Since 1992, the extensive historic
+        centre of Prague has been included in the UNESCO list of World Heritage Sites. Its rich history makes it a popular
+        tourist destination, and the city receives more than 6.4 million international visitors annually, as of 2014.
+        Prague is the fifth most visited European city after London, Paris, Istanbul and Rome.</string>
+    <string name="prague_attractions">Prague Castle, Charles Bridge, Prague Astronimal Clock, Prague Zoo</string>
+    <string name="prague_specialities">CZech beers and cuisines (roast pork, fruit dumplings and apple strudel)</string>
+    <string name="prague_language">Czech</string>
+
+    <!-- Paris -->
+    <string name="paris_country">France</string>
+    <string name="paris_description">Paris is the capital and the most populous city of France, with an administrative
+        -limits area of 105 square kilometres (41 square miles) and a 2015 population of 2,229,621. By the 17th century
+        Paris had become one of Europe\'s major centres of finance, commerce, fashion, science, and the arts, a position
+        that it retains still today. The Paris Region had a GDP of €649.6 billion (US $763.4 billion) in 2014, accounting
+        for 30.4 percent of the GDP of France.According to official estimates, the Paris Region has the fourth-highest GDP
+        in the world and the largest regional GDP in the EU.Paris is especially known for its museums and architectural
+        landmarks: its Louvre was the most visited art museum in the world in 2016, with 7.4 million visitors. In 2017,
+        the European Commission ranked it as the most \"Culturally Vibrant City\" in the EU and its central Seine River
+        banks are classified as a UNESCO Heritage Site.</string>
+    <string name="paris_attractions">Eiffel Tower, Notre Dame de Paris, Pyramid Louvre, Tuileries Garden</string>
+    <string name="paris_specialities">Baguette, Steak-frites, Croque-monsieur, Jambon-beurre</string>
+    <string name="paris_language">French</string>
+
+    <!-- Zurich -->
+    <string name="zurich_country">Switzerland</string>
+    <string name="zurich_description">Zurich is the largest city in Switzerland and the capital of the  canton of Zürich.
+    It is located in north-central Switzerland at the northwestern tip of Lake Zürich. Zürich is a leading global city
+        and among the world\'s largest financial centres despite having a relatively small population. The city is home
+        to a large number of financial institutions and banking giants. Most of Switzerland\'s research and development
+        centres are concentrated in Zürich and the low tax rates attract overseas companies to set up their headquarters
+        there. Many museums and art galleries can be found in the city, including the Swiss National Museum and the
+        Kunsthaus.Schauspielhaus Zürich is one of the most important theatres in the German-speaking world.
+        Monocle\'s 2012 \"Quality of Life Survey\" ranked Zürich first on a list of the top 25 cities in the world
+        \"to make a base within\". According to several surveys from 2006 to 2008, Zürich was named the city with
+        the best quality of life in the world as well as the wealthiest city in Europe.
+        The Economist Intelligence Unit\'s Global Liveability Ranking sees Zürich rank among the top ten most
+        liveable cities in the world.</string>
+    <string name="zurich_attractions">Swiss Alps, Street Parade, Lake Zurich, Swiss National Museum</string>
+    <string name="zurich_specialities">Zurich Geschnetzeltes, Fondue, Raclette, Swiss Breakfast</string>
+    <string name="zurich_language">German</string>
 </resources>

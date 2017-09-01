@@ -16,7 +16,7 @@
         <ImageView
             android:id="@+id/tour_icon"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/height_250dp"
             tools:src="@drawable/galway" />
 
         <LinearLayout

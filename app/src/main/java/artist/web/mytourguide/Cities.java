@@ -6,37 +6,38 @@ package artist.web.mytourguide;
 
 public class Cities {
 
-    private String placeName;
-    private String placeDescription;
-    private String placeImageId;
-    private String placeAddress;
-    private int placePrice;
+    private String mCountryName;
+    private String mCityDescription;
+    private String mCityAttractions;
+    private String mCitySpecialities;
+    private String mCityLanguage;
 
-    public Cities(String placeName, String placeDescription, String placeImageId, String placeAddress, int placePrice ) {
-        this.placeName = placeName;
-        this.placeDescription = placeDescription;
-        this.placeImageId = placeImageId;
-        this.placeAddress = placeAddress;
-        this.placePrice = placePrice;
+    public Cities(String mCountryName, String mCityDescription,
+                  String mCityAttractions, String mCitySpecialities, String mCityLanguage) {
+        this.mCountryName = mCountryName;
+        this.mCityDescription = mCityDescription;
+        this.mCityAttractions = mCityAttractions;
+        this.mCitySpecialities = mCitySpecialities;
+        this.mCityLanguage = mCityLanguage;
     }
 
-    public String getPlaceName() {
-        return placeName;
+    public String getCountryName() {
+        return mCountryName;
     }
 
-    public String getPlaceDescription() {
-        return placeDescription;
+    public String getCityDescription() {
+        return mCityDescription;
     }
 
-    public String getPlaceImageId() {
-        return placeImageId;
+    public String getCityAttractions() {
+        return mCityAttractions;
     }
 
-    public String getPlaceAddress() {
-        return placeAddress;
+    public String getCitySpecialities() {
+        return mCitySpecialities;
     }
 
-    public int getPlacePrice() {
-        return placePrice;
+    public String getCityLanguage() {
+        return mCityLanguage;
     }
 }

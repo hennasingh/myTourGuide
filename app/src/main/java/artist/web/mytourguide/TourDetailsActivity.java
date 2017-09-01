@@ -50,7 +50,7 @@ public class TourDetailsActivity extends AppCompatActivity {
         tourName.setText(name);
 
         //Tour Cost
-        int cost = selectedTour.getTourCost();
+        String cost = selectedTour.getTourCost()+ "";
         tourCost.setText(cost);
 
         //Rating Bar
