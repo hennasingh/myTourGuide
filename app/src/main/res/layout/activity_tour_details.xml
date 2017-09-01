@@ -24,8 +24,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginLeft="8dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginLeft="@dimen/margin_8dp"
+            android:layout_marginTop="@dimen/margin_8dp"
             android:layout_below="@id/tour_icon">
 
             <TextView
@@ -44,7 +44,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="@dimen/margin_5"
                 android:numStars="5"
                 tools:rating="3"
                 android:stepSize="1"/>

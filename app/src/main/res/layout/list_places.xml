@@ -10,15 +10,15 @@
 
         <ImageView
             android:id="@+id/place_icon"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="@dimen/width_100"
+            android:layout_height="@dimen/height_100"
             tools:src="@drawable/placeholder_image"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="14dp"
-        android:padding="8dp"
+        android:layout_marginTop="@dimen/margin_12dp"
+        android:padding="@dimen/padding_5dp"
         android:orientation="vertical">
 
         <TextView
@@ -26,7 +26,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:text="Place Name"
-            android:textSize="14sp"
+            android:textSize="@dimen/text_14"
             android:textColor="@color/dark_red"/>
 
         <TextView
@@ -34,9 +34,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:text="Place Address"
-            android:textSize="14sp"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
+            android:textSize="@dimen/text_14"
+            android:layout_marginTop="@dimen/margin_5"
+            android:layout_marginBottom="@dimen/margin_5"
             android:textColor="@color/violet"/>
 
         <RatingBar

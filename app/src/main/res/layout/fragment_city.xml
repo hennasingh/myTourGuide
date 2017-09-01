@@ -26,33 +26,33 @@
                     android:id="@+id/label_country"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Country"
-                    android:textSize="16sp"
-                    android:layout_marginBottom="5dp"
+                    android:text="@string/country"
+                    android:textSize="@dimen/text_16"
+                    android:layout_marginBottom="@dimen/margin_5"
                     android:textColor="@color/dark_red"/>
                 <TextView
                     android:id="@+id/country"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     tools:text="India"
-                    android:textSize="14sp"
+                    android:textSize="@dimen/text_14"
                     android:textColor="@color/violet"/>
 
                 <TextView
                     android:id="@+id/label_language"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Official Language"
-                    android:textSize="16sp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="5dp"
+                    android:text="@string/official_language"
+                    android:textSize="@dimen/text_16"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:layout_marginBottom="@dimen/margin_5"
                     android:textColor="@color/dark_red"/>
                 <TextView
                     android:id="@+id/language"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     tools:text="Malayalam"
-                    android:textSize="14sp"
+                    android:textSize="@dimen/text_14"
                     android:textColor="@color/violet"/>
 
                 <TextView
@@ -60,9 +60,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Major Attractions"
-                    android:textSize="16sp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="5dp"
+                    android:textSize="@dimen/text_16"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:layout_marginBottom="@dimen/margin_5"
                     android:textColor="@color/dark_red"/>
 
                 <TextView
@@ -70,17 +70,17 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     tools:text="Black Waters, beaches, Ayurvedic Tourism "
-                    android:textSize="14sp"
+                    android:textSize="@dimen/text_14"
                     android:textColor="@color/violet"/>
 
                 <TextView
                     android:id="@+id/label_speciality"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Known for"
-                    android:textSize="16sp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="5dp"
+                    android:text="@string/known_for"
+                    android:textSize="@dimen/text_16"
+                    android:layout_marginTop="@dimen/margin_10"
+                    android:layout_marginBottom="@dimen/margin_5"
                     android:textColor="@color/dark_red"/>
 
                 <TextView
@@ -88,7 +88,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     tools:text="Cocunut, coffee, Handlooms, spices"
-                    android:textSize="14sp"
+                    android:textSize="@dimen/text_16"
                     android:textColor="@color/violet"/>
 
             </LinearLayout>
@@ -102,7 +102,7 @@
                 <ImageView
                     android:id="@+id/place_icon"
                     android:layout_width="wrap_content"
-                    android:layout_height="220dp"
+                    android:layout_height="@dimen/height_250dp"
                     tools:src="@drawable/kerala1"/>
 
 
@@ -114,20 +114,20 @@
             android:id="@+id/label_about"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="16sp"
-            android:layout_marginTop="16dp"
-            android:padding="6dp"
+            android:textSize="@dimen/text_16"
+            android:layout_marginTop="@dimen/margin_12dp"
+            android:padding="@dimen/padding_5dp"
             android:background="@color/color_pink"
             android:textColor="@color/dark_red"
-            android:text="About the City"/>
+            android:text="@string/about_the_city"/>
 
         <TextView
             android:id="@+id/about_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="14sp"
-            android:layout_marginTop="8dp"
-            android:padding="6dp"
+            android:textSize="@dimen/text_14"
+            android:layout_marginTop="@dimen/margin_8dp"
+            android:padding="@dimen/padding_5dp"
             android:textColor="@color/dark_red"
             tools:text="This will contain content about the city"
             android:background="@color/light_violet"/>
