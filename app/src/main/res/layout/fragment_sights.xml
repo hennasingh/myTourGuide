@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="artist.web.mytourguide.SightsFragment"
+    tools:context="artist.web.mytourguide.fragments.SightsFragment"
     android:background="@drawable/main_layout_bakground">
 
   <ListView

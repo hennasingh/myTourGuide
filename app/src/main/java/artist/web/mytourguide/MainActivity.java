@@ -10,6 +10,11 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import java.util.ArrayList;
 import java.util.List;
+
+import artist.web.mytourguide.adapters.TourAdapter;
+import artist.web.mytourguide.models.Cities;
+import artist.web.mytourguide.models.Places;
+import artist.web.mytourguide.models.Tours;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
@@ -47,12 +52,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         insertSightPlacesRecords();
         insertDinePlacesRecords();
 
-        tourList.add(new Tours("Dublin to Galway",R.drawable.galway,"10 hours", 50,3.5f,getString(R.string.dubtogal)));
-        tourList.add(new Tours("Dublin to Belfast",R.drawable.belfast,"11 hours", 70,4, getString(R.string.dubtobel)));
-        tourList.add(new Tours("Paris Charms & Secrets",R.drawable.parischarms,"5 hours", 30,3.5f, getString(R.string.parischarms)));
-        tourList.add(new Tours("Paris: Taste of Montmarte",R.drawable.parismontmartre,"3 hours", 90,5,getString(R.string.parisfood)));
-        tourList.add(new Tours("Zurich Cruise Trip",R.drawable.zurich_cruise,"10 hours", 75,4, getString(R.string.zurichcruise)));
-        tourList.add(new Tours("Prague Riverside Party",R.drawable.prague_riverside,"4 hours", 25,5,getString(R.string.pragueriver)));
+        tourList.add(new Tours(getString(R.string.tour_galway),R.drawable.galway,"10 hours", 50,3.5f,getString(R.string.dubtogal)));
+        tourList.add(new Tours(getString(R.string.tour_belfast),R.drawable.belfast,"11 hours", 70,4, getString(R.string.dubtobel)));
+        tourList.add(new Tours(getString(R.string.tour_paris_charms),R.drawable.parischarms,"5 hours", 30,3.5f, getString(R.string.parischarms)));
+        tourList.add(new Tours(getString(R.string.tour_paris_montmarte),R.drawable.parismontmartre,"3 hours", 90,5,getString(R.string.parisfood)));
+        tourList.add(new Tours(getString(R.string.tour_zurich_cruise),R.drawable.zurich_cruise,"10 hours", 75,4, getString(R.string.zurichcruise)));
+        tourList.add(new Tours(getString(R.string.tour_prague_river),R.drawable.prague_riverside,"4 hours", 25,5,getString(R.string.pragueriver)));
 
         TourAdapter tourAdapter = new TourAdapter(this,tourList);
         ListView toursListView = (ListView)findViewById(R.id.listview_tours);

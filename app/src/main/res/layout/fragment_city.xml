@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/light_pink"
-    tools:context="artist.web.mytourguide.CityFragment">
+    tools:context="artist.web.mytourguide.fragments.CityFragment">
 
     <LinearLayout
         android:layout_width="match_parent"

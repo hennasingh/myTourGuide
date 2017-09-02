@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="@dimen/width_100"
+        android:layout_height="@dimen/height_130"
+        android:background="@color/ll_backgroundscroll"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_10">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_kerala"
+                style="@style/CircleImageStyle"
+                android:src="@drawable/kerala1"
+                app:civ_border_color="@color/circle_border"
+                app:civ_border_width="@dimen/border_width" />
+
+            <TextView
+                style="@style/ScrollTextStyle"
+                android:text="@string/kerala" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_goa"
+                style="@style/CircleImageStyle"
+                android:layout_marginStart="@dimen/margin_20"
+                android:src="@drawable/goa"
+                app:civ_border_color="@color/circle_border"
+                app:civ_border_width="@dimen/border_width" />
+
+            <TextView
+                style="@style/ScrollTextStyle"
+                android:text="@string/goa" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_prague"
+                style="@style/CircleImageStyle"
+                android:layout_marginStart="@dimen/margin_20"
+                android:src="@drawable/prague1"
+                app:civ_border_color="@color/circle_border"
+                app:civ_border_width="@dimen/border_width" />
+
+            <TextView
+                style="@style/ScrollTextStyle"
+                android:text="@string/prague" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_paris"
+                style="@style/CircleImageStyle"
+                android:layout_marginStart="@dimen/margin_20"
+                android:src="@drawable/paris"
+                app:civ_border_color="@color/circle_border"
+                app:civ_border_width="@dimen/border_width" />
+
+            <TextView
+                style="@style/ScrollTextStyle"
+                android:text="@string/paris" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_zurich"
+                style="@style/CircleImageStyle"
+                android:layout_marginStart="@dimen/margin_20"
+                android:src="@drawable/zurich"
+                app:civ_border_color="@color/circle_border"
+                app:civ_border_width="@dimen/border_width" />
+
+            <TextView
+                style="@style/ScrollTextStyle"
+                android:text="@string/zurich" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_dublin"
+                style="@style/CircleImageStyle"
+                android:layout_marginStart="@dimen/margin_20"
+                android:src="@drawable/dublin"
+                app:civ_border_color="@color/circle_border"
+                app:civ_border_width="@dimen/border_width" />
+
+            <TextView
+                style="@style/ScrollTextStyle"
+                android:text="@string/dublin" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</HorizontalScrollView>
+

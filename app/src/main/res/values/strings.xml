@@ -149,4 +149,14 @@
     <string name="known_for">Known for</string>
     <string name="official_language">Official Language</string>
     <string name="country">Country</string>
+    <string name="goa">Goa</string>
+    <string name="prague">Prague</string>
+    <string name="placeholder_overview">The description of the tour will be done here.</string>
+    <string name="placeholder_tour_header">Dublin to Galway</string>
+    <string name="tour_galway">Dublin to Galway</string>
+    <string name="tour_belfast">Dublin to Belfast</string>
+    <string name="tour_paris_charms"><![CDATA[Paris Charms & Secrets]]></string>
+    <string name="tour_paris_montmarte">Paris: Taste of Montmarte</string>
+    <string name="tour_zurich_cruise">Zurich Cruise Trip</string>
+    <string name="tour_prague_river">Prague Riverside Party</string>
 </resources>

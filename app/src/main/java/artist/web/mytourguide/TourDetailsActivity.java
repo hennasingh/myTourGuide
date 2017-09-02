@@ -6,6 +6,7 @@ import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
+import artist.web.mytourguide.models.Tours;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
