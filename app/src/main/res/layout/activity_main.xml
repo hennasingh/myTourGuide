@@ -15,16 +15,23 @@
     <include
         layout="@layout/horizontal_scroll_cities"/>
 
-    <TextView
-        style="@style/TextViewStyle"
-        android:text="@string/popular_tours" />
-
-
-    <ListView
-        android:id="@+id/listview_tours"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextViewStyle"
+            android:text="@string/popular_tours" />
+
+        <ListView
+            android:id="@+id/listview_tours"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+
+
+    </LinearLayout>
 
 </LinearLayout>
 

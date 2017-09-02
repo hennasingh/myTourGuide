@@ -7,6 +7,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 import artist.web.mytourguide.fragments.CityFragment;
 import artist.web.mytourguide.fragments.DiningFragment;
+import artist.web.mytourguide.fragments.HotelFragment;
 import artist.web.mytourguide.fragments.SightsFragment;
 
 /**
@@ -15,9 +16,9 @@ import artist.web.mytourguide.fragments.SightsFragment;
 
 public class FragmentAdapter extends FragmentPagerAdapter {
 
-     private int pageCount =3;
+     private int pageCount =4;
      private Context context;
-     private String tabTitles[]= {"City","Sights","Dining"};
+     private String tabTitles[]= {"City","Sights","Dining","Hotels"};
 
      public FragmentAdapter (FragmentManager fm, Context context) {
         super(fm);
@@ -36,6 +37,9 @@ public class FragmentAdapter extends FragmentPagerAdapter {
                 break;
             case 2:
                 fragment =  new DiningFragment();
+                break;
+            case 3:
+                fragment =  new HotelFragment();
                 break;
             default:
                 fragment = new CityFragment();
@@ -56,9 +60,10 @@ public class FragmentAdapter extends FragmentPagerAdapter {
             return tabTitles[0];
         } else if (position == 1) {
             return tabTitles[1];
-        } else {
+        } else if (position== 2){
             return tabTitles[2];
-        }
+        }else
+            return tabTitles[3];
     }
 
 }
