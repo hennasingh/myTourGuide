@@ -9,6 +9,7 @@ import artist.web.mytourguide.fragments.CityFragment;
 import artist.web.mytourguide.fragments.DiningFragment;
 import artist.web.mytourguide.fragments.HotelFragment;
 import artist.web.mytourguide.fragments.SightsFragment;
+import artist.web.mytourguide.fragments.ToursFragment;
 
 /**
  * Created by User on 8/25/2017.
@@ -16,9 +17,9 @@ import artist.web.mytourguide.fragments.SightsFragment;
 
 public class FragmentAdapter extends FragmentPagerAdapter {
 
-     private int pageCount =4;
+     private int pageCount =5;
      private Context context;
-     private String tabTitles[]= {"City","Sights","Dining","Hotels"};
+     private String tabTitles[]= {"City","Sights","Dining","Hotels","Tours"};
 
      public FragmentAdapter (FragmentManager fm, Context context) {
         super(fm);
@@ -41,6 +42,9 @@ public class FragmentAdapter extends FragmentPagerAdapter {
             case 3:
                 fragment =  new HotelFragment();
                 break;
+            case 4:
+                fragment =  new ToursFragment();
+                break;
             default:
                 fragment = new CityFragment();
                 break;
@@ -62,8 +66,10 @@ public class FragmentAdapter extends FragmentPagerAdapter {
             return tabTitles[1];
         } else if (position== 2){
             return tabTitles[2];
-        }else
+        }  else if (position== 3){
             return tabTitles[3];
+        }  else
+            return tabTitles[4];
     }
 
 }

@@ -19,7 +19,7 @@ import static artist.web.mytourguide.MainActivity.dineParis;
  */
 public class HotelFragment extends Fragment {
 
-    private static final String LOG_TAG = "DiningFragment";
+    private static final String LOG_TAG = "HotelFragment";
     private View view;
     private String mSelectedCity;
     private ListView mListView;
@@ -37,7 +37,8 @@ public class HotelFragment extends Fragment {
             mSelectedCity = bundle.getString("city");
         }
 
-        if((mSelectedCity.equals("Kerala"))||(mSelectedCity.equals("Goa"))||(mSelectedCity.equals("Prague"))){
+        if((mSelectedCity.equals((getString(R.string.kerala))))||(mSelectedCity.equals((getString(R.string.goa))))
+                ||(mSelectedCity.equals((getString(R.string.prague))))){
 
             placesAdapter = new PlacesAdapter(getActivity(),dineGoa);
 

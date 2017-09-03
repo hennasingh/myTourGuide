@@ -8,10 +8,14 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
+
 import java.util.List;
 
 import artist.web.mytourguide.R;
 import artist.web.mytourguide.models.Tours;
+
+import static artist.web.mytourguide.R.id.tour_cost;
+import static artist.web.mytourguide.R.id.tour_icon;
 
 /**
  * Created by User on 8/14/2017.
@@ -26,6 +30,13 @@ public class TourAdapter extends ArrayAdapter<Tours> {
     }
 
 
+    static class ViewHolder {
+        private ImageView tour_icon;
+        private TextView tour_name;
+        private TextView tour_time;
+        private TextView tour_cost;
+        private RatingBar tour_stars;
+    }
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
@@ -33,23 +44,24 @@ public class TourAdapter extends ArrayAdapter<Tours> {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.list_tour, parent, false);
         }
 
+        ViewHolder holder = new ViewHolder();
         Tours currentTour = getItem(position);
 
-        ImageView tour_icon = (ImageView) convertView.findViewById(R.id.tour_icon);
-        tour_icon.setImageResource(currentTour.getTourIcon());
-
-        TextView tour_name = (TextView) convertView.findViewById(R.id.tour_name);
-        tour_name.setText(currentTour.getTourName());
-
-        TextView tour_time = (TextView) convertView.findViewById(R.id.tour_time);
-        tour_time.setText(currentTour.getTourTime());
-
-        TextView tour_cost = (TextView) convertView.findViewById(R.id.tour_cost);
+        holder.tour_icon = (ImageView) convertView.findViewById(tour_icon);
+        holder.tour_name = (TextView) convertView.findViewById(R.id.tour_name);
+        holder.tour_time = (TextView) convertView.findViewById(R.id.tour_time);
+        holder.tour_cost = (TextView) convertView.findViewById(tour_cost);
         String cost = "Euro " +currentTour.getTourCost() + " per person";
-        tour_cost.setText(cost);
 
-        RatingBar tour_stars = (RatingBar) convertView.findViewById(R.id.rating_stars);
-        tour_stars.setRating(currentTour.getTourRating());
+        convertView.setTag(holder);
+
+        holder.tour_stars = (RatingBar) convertView.findViewById(R.id.rating_stars);
+        holder.tour_name.setText(currentTour.getTourName());
+        holder.tour_time.setText(currentTour.getTourTime());
+        holder.tour_cost.setText(cost);
+        holder.tour_icon.setImageResource(currentTour.getTourIcon());
+        holder.tour_stars.setRating(currentTour.getTourRating());
+
         return convertView;
     }
 }

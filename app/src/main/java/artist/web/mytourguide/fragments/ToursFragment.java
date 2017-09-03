@@ -17,9 +17,9 @@ import static artist.web.mytourguide.MainActivity.dineParis;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class DiningFragment extends Fragment {
+public class ToursFragment extends Fragment {
 
-    private static final String LOG_TAG = "DiningFragment";
+    private static final String LOG_TAG = "ToursFragment";
     private View view;
     private String mSelectedCity;
     private ListView mListView;
@@ -29,7 +29,6 @@ public class DiningFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
 
         // Inflate view object
         view = inflater.inflate(R.layout.fragment_sights, container, false);
@@ -53,5 +52,5 @@ public class DiningFragment extends Fragment {
         mListView.setAdapter(placesAdapter);
         return view;
     }
+    }
 
-}

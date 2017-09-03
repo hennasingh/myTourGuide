@@ -41,7 +41,8 @@ public class SightsFragment extends Fragment {
             mSelectedCity = bundle.getString("city");
         }
 
-        if((mSelectedCity.equals("Kerala"))||(mSelectedCity.equals("Goa"))||(mSelectedCity.equals("Prague"))){
+        if((mSelectedCity.equals(getString(R.string.kerala)))||(mSelectedCity.equals((getString(R.string.goa))))
+                ||(mSelectedCity.equals((getString(R.string.prague))))){
 
             placesAdapter = new PlacesAdapter(getActivity(),sightsKerala);
 
